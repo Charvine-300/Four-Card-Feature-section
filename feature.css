@@ -139,11 +139,19 @@ img {
     }
     
     /*==========  Class Rules  ==========*/
-    .boxers {
-        width: 400px; 
-        height: 1300px; 
+    .heads {
+        width: 100%; 
+        height: 398px; 
         margin-left: auto; 
         margin-right: auto;
+        background-color: #f3f3f3;
+    }
+    .boxers {
+        width: 373px; 
+        height: 1200px; 
+        margin-left: auto; 
+        margin-right: auto;
+        background-color: #f3f3f3;
     }
 
     .headers {
@@ -220,6 +228,12 @@ img {
     
     
     /*==========  Element Rules  ==========*/
+    header {
+        width: 100%;
+        height: 368px;
+        background-color: #f3f3f3;
+    }
+
     h1 {
         margin: 0px;
         font-size: 30px;
