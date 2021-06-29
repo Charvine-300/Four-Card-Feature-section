@@ -1,124 +1,127 @@
-body {
-    margin: 0px;
-    background-color: #000000;
+@media only screen and (min-width: 1000px) and (max-width: 1500px) {
+    body {
+        margin: 0px;
+        background-color: #000000;
+    }
+    
+    #container {
+        width: 1580px;
+        height: 800px;
+        margin: 0px auto;
+        background-color: #f3f3f3;
+    }
+    
+    #flexbox {
+        display: flex;
+        margin-top: 40px;
+        margin-left: 70px;
+        flex-direction: row;
+    }
+    
+    
+    /*==========  Class Rules  ==========*/
+    .headers {
+        font-size: 25px;
+        text-align: left;
+        line-height: 0px;
+        font-weight: 1000;
+        font-family: monospace;
+        padding: 40px 10px 10px 20px;
+    }
+    
+    .content {
+        font-size: 15px;
+        text-align: left;
+        padding: 0px 10px 10px 20px;
+    }
+    
+    .line1 {
+        width: 330px;
+        height: 5px;
+        background-color: #07caca;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+       
+    }
+    
+    .box1 {
+        width: 330px;
+        height: 250px;
+        margin-left: 25px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 5px 5px 5px 5px #b6b5b5;
+    }
+    
+    .box2 {
+        width: 330px;
+        height: 250px;
+        margin-left: 25px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 5px 5px 5px 5px #b6b5b5;
+    }
+    
+    .box3 {
+        width: 330px;
+        height: 250px;
+        margin-top: 70px;
+        margin-left: 25px;
+        position: absolute;
+        border-radius: 10px;
+        position: absolute;
+        background-color: #ffffff;
+        box-shadow: 5px 5px 5px 5px #b6b5b5;
+    }
+    
+    .box4 {
+        width: 330px;
+        height: 250px;
+        margin-left: 25px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        box-shadow: 5px 5px 5px 5px #b6b5b5;
+    }
+    
+    /*==========  Element Rules  ==========*/
+    h1 {
+        margin: 0px;
+        font-size: 50px;
+        color: #000000;
+        line-height: 60px;
+        text-align: center;
+        font-weight: lighter;
+        font-family: monospace;
+        padding: 70px 0px 20px 0px;
+    }
+    
+    p {
+        font-size: 18px;
+        color: #858484;
+        text-align: center;
+        font-weight: lighter; 
+        font-family: monospace;
+        padding: 0px 270px 30px 270px; 
+    }
+    
+    img {
+        margin-top: 30px;
+        margin-left: 240px;
+    }
+    
+    .signature {
+        padding-top: 80px;
+        text-align: right; 
+        font-weight: 1000; 
+        margin-right: 40px;
+        font-style: italic; 
+    }
 }
 
-#container {
-    width: 1580px;
-    height: 800px;
-    margin: 0px auto;
-    background-color: #f3f3f3;
-}
-
-#flexbox {
-    display: flex;
-    margin-top: 40px;
-    margin-left: 70px;
-    flex-direction: row;
-}
-
-
-/*==========  Class Rules  ==========*/
-.headers {
-    font-size: 25px;
-    text-align: left;
-    line-height: 0px;
-    font-weight: 1000;
-    font-family: monospace;
-    padding: 40px 10px 10px 20px;
-}
-
-.content {
-    font-size: 15px;
-    text-align: left;
-    padding: 0px 10px 10px 20px;
-}
-
-.line1 {
-    width: 330px;
-    height: 5px;
-    background-color: #07caca;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-   
-}
-
-.box1 {
-    width: 330px;
-    height: 250px;
-    margin-left: 25px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 5px 5px 5px 5px #b6b5b5;
-}
-
-.box2 {
-    width: 330px;
-    height: 250px;
-    margin-left: 25px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 5px 5px 5px 5px #b6b5b5;
-}
-
-.box3 {
-    width: 330px;
-    height: 250px;
-    margin-top: 70px;
-    margin-left: 25px;
-    position: absolute;
-    border-radius: 10px;
-    position: absolute;
-    background-color: #ffffff;
-    box-shadow: 5px 5px 5px 5px #b6b5b5;
-}
-
-.box4 {
-    width: 330px;
-    height: 250px;
-    margin-left: 25px;
-    border-radius: 10px;
-    background-color: #ffffff;
-    box-shadow: 5px 5px 5px 5px #b6b5b5;
-}
-
-/*==========  Element Rules  ==========*/
-h1 {
-    margin: 0px;
-    font-size: 50px;
-    color: #000000;
-    line-height: 60px;
-    text-align: center;
-    font-weight: lighter;
-    font-family: monospace;
-    padding: 70px 0px 20px 0px;
-}
-
-p {
-    font-size: 18px;
-    color: #858484;
-    text-align: center;
-    font-weight: lighter; 
-    font-family: monospace;
-    padding: 0px 270px 30px 270px; 
-}
-
-img {
-    margin-top: 30px;
-    margin-left: 240px;
-}
-
-.signature {
-    padding-top: 80px;
-    text-align: right; 
-    font-weight: 1000; 
-    margin-right: 40px;
-    font-style: italic; 
-}
 
 
 /*==========  Mobile Design  ============*/
-@media only screen and (min-width: 375px) {
+@media only screen and (min-width: 375px) and (max-width: 1000px) {
     body {
         margin: 0px;
         background-color: #000000;
